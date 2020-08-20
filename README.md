@@ -1,7 +1,6 @@
 # Machine Learning
 
-The code here was written to fit a machine learning model to a data for image detections.  
-The dataset includes a collection of textual descriptions of neural network model architectures trained on Cifar-10. The labels are the final training and testing performance scores of these models. 
+The code here was written to fit a machine learning model to a data, which includes a collection of textual descriptions of neural network model architectures trained on Cifar-10. The labels are the final training and testing performance scores of these models. 
 
 Three different models have been tested: linear regression, deepNN, and deepNN_1. (models.py)
 The highest scoring one was deepNN_1. In this model I used two hidden layers, as well as a sigmoid function and batch normalization.
